@@ -29,6 +29,29 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+##Route Fetch
+| Route          | Description            |
+| -------------- | ---------------------- |
+| `/login`       | User login form        |
+| `/signup`      | Register new user      |
+| `/dashboard`   | Main weather dashboard |
+| `/city/[name]` | 5-day forecast details |
+
+## 🌟 Features
+🔐 Authentication (Signup, Login, Logout)
+🌤 Current Weather Display
+🌦 5-Day Forecast
+🧭 Responsive Dashboard
+⚡ Live API Integration
+💾 Persistent login via cookie
+🧠 Smart Auth State Sync
+
+## ❤️ Credits
+Built by Lokesh Umredkar
+Backend – Node.js + Express + MongoDB
+Frontend – Next.js 13 + TailwindCSS
+Weather Data – OpenWeatherMap API and Open Meteo API
+
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
